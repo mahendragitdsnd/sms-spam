@@ -1,15 +1,23 @@
 # SMS Spam Detection Web App
 This project demonstrates a complete machine learning pipeline for detecting SMS spam messages using Support Vector Machine (SVM). The trained model is deployed using a Flask web application.
 sms_spam_full_project/
-├── train_model.py              # Trains the SVM model
+
+├── train_model.py  
+
 ├── app.py                      # Flask app for predictions
+
 ├── requirements.txt            # Dependencies
+
 ├── finalized_model.sav         # (Generated) Trained model file
+
 ├── tfidf_vectorizer.pkl        # (Generated) TF-IDF vectorizer
+
 ├── templates/
 │   └── index.html              # HTML frontend
+
 └── static/
     └── style.css               # CSS for UI
+    
 *How to Use
 1. Install Dependencies
   pip install -r requirements.txt
